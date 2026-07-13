@@ -10,7 +10,7 @@ type project = {
 
 export const PROJECTS: project[] = [
     {
-        title: "StyleSync",
+        title: "StyleSync(Fashion Discovery App)",
         description: "Discover your personal style through quick, side-by-side choices while staying inspired by what's trending in the community.",
         demo: "https://main.d6wp2xgt6t4gv.amplifyapp.com/",
         image: "/images/StyleSync.png",
