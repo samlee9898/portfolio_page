@@ -88,19 +88,19 @@ export default function Home() {
             </p>
             <ul className="list-disc list-outside pl-5">
               <li>
-                Providing technical support for machine vision inspection
-                systems used in electrode Notch and Dry manufacturing processes,
+                Provide technical support for machine vision inspection systems
+                used in electrode Notch and Dry manufacturing processes,
                 ensuring continuous operation and minimizing equipment downtime.
               </li>
               <li>
-                Diagnosing and resolving hardware and software issues through
+                Diagnose and resolve hardware and software issues through
                 systematic troubleshooting and root cause analysis to restore
                 equipment performance.
               </li>
               <li>
-                Collaborating with production, maintenance, and engineering
-                teams to identify recurring issues, implement corrective
-                actions, and improve system reliability.
+                Collaborate with production, maintenance, and engineering teams
+                to identify recurring issues, implement corrective actions, and
+                improve system reliability.
               </li>
             </ul>
           </div>
