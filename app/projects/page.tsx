@@ -24,7 +24,7 @@ const page = () => {
         >
           {/* insert conditional rendering */}
           {!project.image && (
-            <div className="absolute inset-0 z-30 aspect-video bg-black/35" />
+            <div className="absolute inset-x-0 top-0 z-30 aspect-video bg-black/35" />
           )}
           <img
             src={project.image ?? "/images/Coming_Soon.jpg"}
@@ -38,15 +38,24 @@ const page = () => {
             <CardTitle>{project.title}</CardTitle>
             <CardDescription>{project.description}</CardDescription>
           </CardHeader>
-          <CardFooter>
-            <a
-              href={project.demo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex h-8 w-full items-center justify-center rounded-lg bg-primary px-2.5 text-sm font-medium text-primary-foreground hover:bg-primary/80"
-            >
-              Live Demo
-            </a>
+          <CardFooter className="mt-auto">
+            {project.demo ? (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-8 w-full items-center justify-center rounded-lg bg-primary px-2.5 text-sm font-medium text-primary-foreground hover:bg-primary/80"
+              >
+                Live Demo
+              </a>
+            ) : (
+              <Button
+                className="h-8 w-full bg-muted text-muted-foreground hover:bg-muted"
+                disabled
+              >
+                Coming soon
+              </Button>
+            )}
           </CardFooter>
         </Card>
       ))}
