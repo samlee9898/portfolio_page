@@ -56,10 +56,10 @@ LSP USA LLC — Ultium Cells Battery Plant
 May 2026 – Present
 
 Responsibilities include:
-- Supporting machine vision inspection systems used in battery manufacturing.
-- Troubleshooting hardware and software issues.
-- Performing root cause analysis.
-- Collaborating with production, maintenance, and engineering teams to improve system reliability.
+- Providing technical support for machine vision inspection systems used in automated battery manufacturing.
+- Monitoring machine vision inspection systems across production lines, review flagged images to distinguish actual defects from false positives, adjust inspection parameters to reduce over-detection, and promptly notify production teams of confirmed defects.
+- Diagnosing hardware and software issues, identify root causes, and implement solutions to restore equipment performance and minimize production downtime.
+- Collaborating with production, maintenance, and engineering teams by communicating equipment issues and troubleshooting updates in real time, enabling rapid corrective action and improved system reliability.
 
 ### Military Driver
 Republic of Korea Army
@@ -102,19 +102,22 @@ StyleSync is a fashion discovery platform that allows users to rank products usi
 ### Golf Swing Analyzer (In Progress)
 
 Technologies:
-- Bun
+- TypeScript
 - React
+- Bun
 - TailwindCSS
 - Shadcn
 - Express
 - MySQL
-- Prisma
-- OpenCV
-- PyTorch
-- AWS
+- AWS EC2
+- AWS S3
+- AWS Route 53
+- Nginx
+- PM2
+- Gemini API
 
 Description:
-Sam is currently developing a golf swing analyzer that uses computer vision to analyze golf swing mechanics. Since the project is still in its early stages, the technology stack may change.
+Sam is currently developing a golf swing analyzer that uses Gemini API to analyze golf swing mechanics. He is currently using Gemini API to analyze swing videos but he wants to adopt other models that are better in analyzing swing videos.
 
 ## Career Interests
 

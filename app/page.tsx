@@ -3,7 +3,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
-import { Button } from "@base-ui/react";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 
@@ -67,11 +66,16 @@ export default function Home() {
           <Separator className="bg-gray-400" />
           <div className="flex flex-col">
             <p className="text-lg font-semibold">Tech Stack</p>
-            <span>Languages: Javascript/Typescript, Java, Python, SQL</span>
             <span>
-              Technologies/Tech Stack: NextJS, TailwindCSS, MySQL, Docker
+              Languages: JavaScript/TypeScript, Java, Python, SQL, HTML/CSS
             </span>
-            <span>Developer Tools: Git, Slack, Jira, ChatGPT, Claude</span>
+            <span>
+              Frameworks/Libraries: React, Next.js, Express, Tailwind CSS,
+              shadcn/ui
+            </span>
+            <span>Cloud/Deployment: AWS (EC2, S3, Route 53) Nginx, PM2</span>
+            <span>Database: MySQL</span>
+            <span>Developer Tools: Git, Postman, Jira, Slack</span>
           </div>
           <Separator className="bg-gray-400" />
           <p className="text-lg font-semibold">Work Experience</p>
@@ -88,45 +92,26 @@ export default function Home() {
             </p>
             <ul className="list-disc list-outside pl-5">
               <li>
-                Provide technical support for machine vision inspection systems
-                used in electrode Notch and Dry manufacturing processes,
-                ensuring continuous operation and minimizing equipment downtime.
+                Providing technical support for machine vision inspection
+                systems used in automated battery manufacturing.
               </li>
               <li>
-                Diagnose and resolve hardware and software issues through
-                systematic troubleshooting and root cause analysis to restore
-                equipment performance.
+                Monitoring machine vision inspection systems across production
+                lines, review flagged images to distinguish actual defects from
+                false positives, adjust inspection parameters to reduce
+                over-detection, and promptly notify production teams of
+                confirmed defects.
               </li>
               <li>
-                Collaborate with production, maintenance, and engineering teams
-                to identify recurring issues, implement corrective actions, and
-                improve system reliability.
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p className="m-0 flex items-center justify-between leading-tight">
-              <span className="font-semibold">Military Driver</span>
-              <span>Nov 2021 — Apr 2023</span>
-            </p>
-            <p className="m-0 flex items-center justify-between leading-tight italic">
-              <span className="block leading-tight">South Korean Army</span>
-              <span>Seoul, South Korea</span>
-            </p>
-            <ul className="list-disc list-outside pl-5">
-              <li>
-                Transported personnel and materials, operating sedans, SUVs, and
-                small cargo vehicles.
+                Diagnosing hardware and software issues, identify root causes,
+                and implement solutions to restore equipment performance and
+                minimize production downtime.
               </li>
               <li>
-                Collaborated with senior officers to coordinate personnel leave
-                schedules, ensuring adequate staffing and uninterrupted daily
-                operations.
-              </li>
-              <li>
-                Served as a squad leader for five months, mediating conflicts
-                between fellow soldiers, coordinating logistics, and overseeing
-                daily operations in a time-sensitive environment.
+                Collaborating with production, maintenance, and engineering
+                teams by communicating equipment issues and troubleshooting
+                updates in real time, enabling rapid corrective action and
+                improved system reliability.
               </li>
             </ul>
           </div>
